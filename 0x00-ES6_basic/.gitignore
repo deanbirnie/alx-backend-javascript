@@ -1,2 +1,9 @@
 # ignore emacs temporary files
 *~
+
+# ignore packages etc
+node_modules/
+babel.config.js
+package-lock.json
+.eslintrc.js
+package.json
