@@ -1,0 +1,5 @@
+# ignore emacs temporary files
+*~
+
+# ignore ALX provided files
+*main.js
