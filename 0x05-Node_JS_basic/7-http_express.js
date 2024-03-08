@@ -68,9 +68,7 @@ app.get('/students', async (_, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.send(`This is the list of our students\n${report}`);
   } catch (error) {
-    res
-      .status(500)
-      .send('Internal Server Error: Unable to fetch student information');
+    res.status(500).send('Cannot load the database');
   }
 });
 
