@@ -3,3 +3,7 @@
 
 # ignore ALX provided files
 *main.js
+*-main_*.js
+
+# ignore node_modules
+/node_modules
